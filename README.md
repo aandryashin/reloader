@@ -7,4 +7,25 @@ Library for automatic reloading configuration files based on file system events.
 
 ## Using
 
-`import github.com/aandryashin/reloader`
+```go
+package main
+
+import (
+	"log"
+	"time"
+
+	"github.com/aandryashin/reloader"
+)
+
+func loadConfig() {
+	//...
+}
+
+func main() {
+	err := reloader.Watch("config", loadConfig, 5*time.Second)
+	if err != nil {
+		log.Fatal(err)
+	}
+	//...
+}
+```
