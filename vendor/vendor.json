@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "74zwCNDSsh7NdJcEhgItnfU6d/E=",
+			"path": "github.com/fsnotify/fsnotify",
+			"revision": "fd9ec7deca8bf46ecd2a795baaacf2b3a9be1197",
+			"revisionTime": "2016-10-26T20:31:22Z"
+		},
+		{
+			"checksumSHA1": "yAfJ8xBj7cQuDtznpPwPt3UmJiE=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "30237cf4eefd639b184d1f2cb77a581ea0be8947",
+			"revisionTime": "2016-11-19T15:29:01Z"
+		}
+	],
+	"rootPath": "github.com/aandryashin/reloader"
+}
